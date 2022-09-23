@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Origins Builder Web</title>
+
+    <!--Uikit Link-->
+    <link rel="stylesheet" href="uikit/css/uikit.min.css">
+    <link rel="stylesheet" href="uikit/native/android.css">
+    <link rel="stylesheet" href="uikit/css/grid.css">
+    <script src="uikit/js/uikit.min.js"></script>
+
+    <!--Font-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis">
+    <style>
+        body {
+            font-family: 'Dosis';
+        }
+        
+        #navLink {
+            color: #ffffff;
+            font-weight: 600;
+            font-family: 'Dosis';
+            padding: 8px 0;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="android">
+
+        <!-----Navbar----->
+
+
+        <div style="text-align: center;">
+
+            <a class="uk-logo" style="padding: 5px 0 5px 0;" href="#">
+                <img src="img/logo.png" alt="logo" width="60" height="60">
+            </a>
+
+        </div>
+
+        <!-----Navbar Link----->
+        <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+            <nav class="uk-navbar-container" uk-navbar style="position: relative; z-index: 980;background-color: #4C0033;">
+                <div class="uk-navbar-center">
+
+                    <a href="#" id="navLink">Home</a>
+                    <a href="#about" id="navLink">About</a>
+                    <a href="#faq" id="navLink">FaQ</a>
+                    <a href="#service" id="navLink">Service</a>
+                    <a href="#contact" id="navLink">Contact</a>
+
+
+                </div>
+            </nav>
+        </div>
+
+        <!---End Navbar Link--->
+
+        <!---Navbar End--->
+
+
+        <!----Hero Home---->
+
+        <div class="uk-container" style="margin-top: 60px;padding-bottom: 60px;">
+
+            <div class="row">
+
+                <div class="col-md-6" style="text-align: center;">
+                    <img src="img/hero-img.png" alt="hero-img" id="jumbotron">
+                </div>
+
+                <div class="col-md-6">
+                    <p id="jumbotronText">Start to Build your Website with Us</p>
+                    <p id="jumbotronDesc">Web Development - Web Design</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--End Hero Home-->
+
+
+        <div id="about"></div>
+
+        <div style="background-color: #790252;">
+
+            <div class="uk-container" uk-scrollspy="cls: uk-animation-slide-left; repeat: true" style="padding-bottom: 60px;">
+
+                <p id="sectionAboutTitle">About Us</p>
+
+                <p id="sectionAboutDesc">
+                    We are here to provide service website creation that is fast, good, and easy for you
+
+                    <br><br> in today's era, every company, merchant and others really need service website creation, good for promoting their products, as well as to facilitate their work.
+
+                    <br><br> Therefore, we create a manufacturing service this website, to help you in making it
+
+                    <br><br> <span style="font-weight: 600;">Start to Build Your Website with Us</span>
+                </p>
+
+            </div>
+
+        </div>
+
+        <!----Logo---->
+
+        <div class="uk-container" style="text-align: center;margin: 30px 0;">
+
+
+            <img src="img/logo-1.png" alt="hero-logo" id="heroLogo" uk-scrollspy="cls: uk-animation-fade; repeat: true">
+
+        </div>
+
+        <!--End Logo-->
+
+        <div id="faq"></div>
+
+        <!-----Faq----->
+
+
+        <div style="background-color: #790252;">
+
+            <div class="uk-container" style="padding-bottom: 60px;" uk-scrollspy="cls: uk-animation-slide-left;">
+
+                <p id="sectionFaqTitle">FaQ</p>
+
+                <!----Card Question---->
+                <div class="uk-container" style="border-radius: 10px; background-color: #ffffff;margin-top: 20px;">
+
+                    <div class="uk-container" style="padding: 10px 10px;">
+
+                        <span id="plus" class="toggle" type="button" uk-toggle="target: .toggle;animation: uk-animation-fade"> + </span>
+                        <span id="plus" class="toggle" type="button" uk-toggle="target: .toggle;animation: uk-animation-fade" hidden> - </span>
+
+                        <span class="toggle" id="question">why use Origins Web Build service?</span>
+                        <span class="toggle" id="question" hidden>why use Origins Web Build service?</span>
+
+                        <p class="toggle" id="answer" hidden>-> We will try to provide the best service so you will be satisfied with the results we make</p>
+
+                    </div>
+
+
+
+                </div>
+                <!--End Card Question-->
+
+                <!----Card Question 1---->
+                <div class="uk-container" style="border-radius: 10px; background-color: #ffffff;margin-top: 20px;">
+
+                    <div class="uk-container" style="padding: 10px 10px;">
+
+                        <span id="plus" class="toggle1" type="button" uk-toggle="target: .toggle1;animation: uk-animation-fade"> + </span>
+                        <span id="plus" class="toggle1" type="button" uk-toggle="target: .toggle1;animation: uk-animation-fade" hidden> - </span>
+
+                        <span class="toggle1" id="question">does it only provide website build services?</span>
+                        <span class="toggle1" id="question" hidden>does it only provide website build services?</span>
+
+                        <p class="toggle1" id="answer" hidden>-> not only that, we also provide design services, and others</p>
+
+                    </div>
+
+
+                </div>
+                <!--End Card Question 1-->
+
+                <!----Card Question 2---->
+                <div class="uk-container" style="border-radius: 10px; background-color: #ffffff;margin-top: 20px;">
+
+                    <div class="uk-container" style="padding: 10px 10px;">
+
+                        <span id="plus" class="toggle2" type="button" uk-toggle="target: .toggle2;animation: uk-animation-fade"> + </span>
+                        <span id="plus" class="toggle2" type="button" uk-toggle="target: .toggle2;animation: uk-animation-fade" hidden> - </span>
+
+                        <span class="toggle2" id="question">How long does it take to build a website?</span>
+                        <span class="toggle2" id="question" hidden>How long does it take to build a website?</span>
+
+                        <p class="toggle2" id="answer" hidden>-> the processing time depends on your request and also the level of difficulty?</p>
+
+                    </div>
+
+
+
+                </div>
+                <!--End Card Question 2-->
+
+
+                <!----Card Question 3---->
+                <div class="uk-container" style="border-radius: 10px; background-color: #ffffff;margin-top: 20px;">
+
+                    <div class="uk-container" style="padding: 10px 10px;">
+
+                        <span id="plus" class="toggle3" type="button" uk-toggle="target: .toggle3;animation: uk-animation-fade"> + </span>
+                        <span id="plus" class="toggle3" type="button" uk-toggle="target: .toggle3;animation: uk-animation-fade" hidden> - </span>
+
+                        <span class="toggle3" id="question">How to order it?</span>
+                        <span class="toggle3" id="question" hidden>How to order it?</span>
+
+                        <p class="toggle3" id="answer" hidden>-> you can contact our admin in the contact menu</p>
+
+                    </div>
+
+
+
+                </div>
+                <!--End Card Question 3-->
+
+
+            </div>
+        </div>
+
+
+        <!---End Faq--->
+
+        <div id="service"></div>
+        <!----Service---->
+
+        <div class="uk-container" style="padding-bottom: 60px;" uk-scrollspy="cls: uk-animation-fade; repeat: true">
+
+            <p id="sectionServiceTitle">Service</p>
+
+
+            <!---Opsi tampilan List--->
+
+            <div class="row uk-container" style="margin: 30px 10px 0px 10px;" id="listElement">
+
+                <div class="col-md-4" style="text-align: center;margin-top: 10px;">
+                    <img src="img/service/web-developer.png" alt="web-developer" id="opsiImage">
+                    <p id="serviceDesc">Web Developer</p>
+                </div>
+
+                <div class="col-md-4" style="text-align: center;margin-top: 10px;">
+                    <img src="img/service/web-design.png" alt="web-design" id="opsiImage">
+                    <p id="serviceDesc">Web Design</p>
+                </div>
+
+                <div class="col-md-4" style="text-align: center;margin-top: 10px;">
+                    <img src="img/service/web-dev.png" alt="web-development" id="opsiImage">
+                    <p id="serviceDesc">Web Development</p>
+                </div>
+
+            </div>
+
+            <!---Opsi tampilan List--->
+
+            <p style="text-align: center;color:#000;padding: 20px;background-color:#EFA9F5;border-radius: 10px;font-weight: 700;">and also we offer other design making service</p>
+
+
+
+        </div>
+
+        <!--End Service-->
+
+        <div id="contact"></div>
+
+        <!----Contact---->
+        <div style="background-color: #790252;" uk-scrollspy="cls: uk-animation-fade;">
+
+            <div class="uk-container" style="padding-bottom: 60px;">
+
+                <p id="sectionContactTitle">Contact Us</p>
+
+                <div class="col-md-9" style="background-color: #ffffff;padding: 10px 10px;border-radius: 10px;">
+
+                    <p id="contactSectionTitle">Phone / Whats App</p>
+                    <ul>
+                        <li id="contactInfo">Muhamad Nazar : +6285159805488</li>
+                    </ul>
+
+                    <p id="contactSectionTitle">Email</p>
+                    <ul>
+                        <li id="contactInfo">muhamadnazar465@gmail.com</li>
+                        <li id="contactInfo">muhamadnazar862@gmail.com</li>
+                    </ul>
+
+                </div>
+
+                <!---Form--->
+                <div style="background-color: #ffff;border-radius: 10px;margin-top: 40px;">
+                    <div class="uk-container">
+                        <p id="sendM">Send Message</p>
+
+                        <form id="my-form" action="https://formspree.io/f/xdojgeee" method="POST" style="padding: 10px 20px;">
+                            <!--Alert-->
+                            <div id="my-form-status">
+                            </div>
+                            <!--Alert-->
+                            <div class="uk-margin">
+                                <label class="uk-form-label" for="email">Your Name</label>
+                                <div class="uk-form-controls">
+                                    <input class="uk-input" id="email" name="name" type="text" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="uk-margin">
+                                <label class="uk-form-label" for="email">Your Email</label>
+                                <div class="uk-form-controls">
+                                    <input class="uk-input" id="email" name="email" type="email" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="uk-margin">
+                                <textarea class="uk-textarea" id="message" name="message" rows="5" placeholder="Message"></textarea>
+                            </div>
+                            <button id="my-form-button" onclick="UIkit.notification({message: 'Message sent Successfully',status: 'success'})">Submit</button>
+                        </form>
+
+                    </div>
+                </div>
+
+                <!--End Form-->
+
+
+            </div>
+
+        </div>
+        <!--End Contact-->
+
+
+
+        <!----Footer---->
+
+        <div style="background-color: #4C0033;">
+
+            <div class="uk-container">
+
+                <div style="text-align: center;">
+                    <img src="img/logo.png" alt="logo" style="margin-top: 20px;" width="70" height="50">
+                    <span id="footerTitle" style="margin-top: 50px">Origins Website Build</span>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-6" style="margin-left: 10px;">
+                        <p id="footerSubTitle">Our Service :</p>
+
+                        <p id="serviceFooter">Web Design</p>
+                        <p id="serviceFooter">Web Developer</p>
+                        <p id="serviceFooter">Web Development</p>
+                        <p id="serviceFooter">Graphic Design</p>
+                    </div>
+
+                    <div class="col-md-5">
+                        <p id="footerSubTitle">Contact :</p>
+
+                        <p id="serviceFooter">Muhamad Nazar</p>
+                        <p id="serviceFooter">Jl. Sindang Barang, Kec Bogor Barat, Kota Bogor, Jawa Barat</p>
+
+                        <p id="serviceFooter">Phone : +62895355288314</p>
+                        <p id="serviceFooter">Email : muhamadnazar862@gmail.com</p>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div style="background-color: rgb(37, 37, 37);margin-bottom: -20px;">
+            <p style="text-align: center;padding-top: 10px;color: #ffffff;font-size: 0.8em;">
+                Copyright &copy; 2022 Muhamad Nazar <br> All rights reserved
+            </p>
+        </div>
+
+        <!--End Footer-->
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <!---Script Js Icon--->
+    <script src="uikit/js/uikit-icons.min.js"></script>
+
+    <script>
+        var form = document.getElementById("my-form");
+
+        async function handleSubmit(event) {
+            event.preventDefault();
+            var status = document.getElementById("my-form-status");
+            var data = new FormData(event.target);
+            fetch(event.target.action, {
+                method: form.method,
+                body: data,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            }).then(response => {
+                if (response.ok) {
+                    status.innerHTML = "Message Sent Successfully!";
+                    form.reset()
+                } else {
+                    response.json().then(data => {
+                        if (Object.hasOwn(data, 'errors')) {
+                            status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                        } else {
+                            status.innerHTML = "Oops! There was a problem submitting your form"
+                        }
+                    })
+                }
+            }).catch(error => {
+                status.innerHTML = "Oops! There was a problem submitting your form"
+            });
+        }
+        form.addEventListener("submit", handleSubmit)
+    </script>
+</body>
+
+</html>
