@@ -10,6 +10,7 @@
     <!--Uikit Link-->
     <link rel="stylesheet" href="uikit/css/uikit.min.css">
     <link rel="stylesheet" href="uikit/native/android.css">
+    <link rel="stylesheet" href="uikit/native/desktop.css">
     <link rel="stylesheet" href="uikit/css/grid.css">
     <script src="uikit/js/uikit.min.js"></script>
 
@@ -32,6 +33,390 @@
 
 <body>
 
+    <!----Desktop Page---->
+
+    <div class="desktop">
+
+        <!----Navbar---->
+        <div class="uk-preserve-color" style="background-color: #8B78FF;">
+
+            <div uk-sticky="start: 50; animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light">
+
+                <nav class="uk-navbar-container" style="background-color: #605DCF;">
+                    <div class="uk-container uk-container-expand">
+                        <div uk-navbar>
+
+                            <div class="uk-navbar-left">
+
+                                <a class="uk-logo">
+                                    <img src="img/logo.png" alt="logo" width="80" height="80" id="logo">
+                                </a>
+
+                            </div>
+
+                            <div class="uk-navbar-right">
+                                <ul class="uk-navbar-nav">
+                                    <li><a href="#" id="navLink">Home</a></li>
+                                    <li><a href="#about" id="navLink">About Us</a></li>
+                                    <li><a href="#faq" id="navLink">FaQ</a></li>
+                                    <li><a href="#service" id="navLink">Service</a></li>
+                                    <li><a href="#contact" id="navLink">Contact Us</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="uk-section uk-light" style="margin-top: 50px;">
+                <div class="uk-container">
+
+                    <div class="uk-child-width-expand@s" uk-grid style="margin-bottom: 50px;">
+
+                        <div id="bawah">
+                            <p id="jumboHeader">
+                                Start to Build your website with Us
+                            </p>
+                            <p id="jumboSubHeader">
+                                Web Design - Web Developer
+                            </p>
+                        </div>
+                        <div class="uk-text-center">
+                            <img src="img/hero-img.png" alt="Jumbotron" id="jumbotronDesktop">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--End Navbar-->
+
+        <div id="about"></div>
+        <!----About---->
+        <div class="uk-container" style="margin: 70px 0 80px 0;">
+
+            <div class="col-md-12">
+                <p id="aboutTitleDesktop">About Us</p>
+            </div>
+
+            <div class="col-md-10">
+                <p id="aboutDesktop">
+                    We are here to provide service website creation that is fast, good, and easy for you
+
+                    <br><br> in today's era, every company, merchant and others really need service website creation, good for promoting their products, as well as to facilitate their work.
+
+                    <br><br> Therefore, we create a manufacturing service this website, to help you in making it
+
+                    <br><br> <span style="font-weight: 600;">Start to Build Your Website with Us</span>
+                </p>
+            </div>
+
+            <p style="text-align: center;margin-top: 40px;">
+                <img src="img/logo-1.png" alt="logo">
+            </p>
+
+        </div>
+        <!--End About-->
+
+
+        <div id="faq"></div>
+        <!----FaQ---->
+
+        <div style="background-color: #8B78FF;">
+
+            <div class="uk-container">
+
+                <div class="uk-child-width-expand@s" style="margin: 100px 0;" uk-grid>
+                    <!----FaQ Title---->
+
+                    <div>
+                        <p id="faqDesktop">Frequently asked Question</p>
+                        <p id="subFaqDesktop">There are some frequently asked questions, we can tell you here
+                        </p>
+                    </div>
+
+                    <!--End FaQ Title-->
+
+                    <!----FaQ Question---->
+                    <div>
+
+                        <!----Card Question---->
+                        <div class="uk-container" style="border-radius: 10px; background-color: #ffffff;margin-top: 20px;">
+
+                            <div class="uk-container" style="padding: 10px 10px;">
+
+                                <span id="plusD" class="toggle" type="button" uk-toggle="target: .toggle;animation: uk-animation-fade"> + </span>
+                                <span id="plusD" class="toggle" type="button" uk-toggle="target: .toggle;animation: uk-animation-fade" hidden> - </span>
+
+                                <span class="toggle" id="questionD">why use Origins Web Build service?</span>
+                                <span class="toggle" id="questionD" hidden>why use Origins Web Build service?</span>
+
+                                <p class="toggle" id="answerD" hidden>-> We will try to provide the best service so you will be satisfied with the results we make</p>
+
+                            </div>
+
+
+
+                        </div>
+                        <!--End Card Question-->
+
+                        <!----Card Question 1---->
+                        <div class="uk-container" style="border-radius: 10px; background-color: #ffffff;margin-top: 20px;">
+
+                            <div class="uk-container" style="padding: 10px 10px;">
+
+                                <span id="plusD" class="toggle1" type="button" uk-toggle="target: .toggle1;animation: uk-animation-fade"> + </span>
+                                <span id="plusD" class="toggle1" type="button" uk-toggle="target: .toggle1;animation: uk-animation-fade" hidden> - </span>
+
+                                <span class="toggle1" id="questionD">does it only provide website build services?</span>
+                                <span class="toggle1" id="questionD" hidden>does it only provide website build services?</span>
+
+                                <p class="toggle1" id="answerD" hidden>-> not only that, we also provide design services, and others</p>
+
+                            </div>
+
+
+                        </div>
+                        <!--End Card Question 1-->
+
+                        <!----Card Question 2---->
+                        <div class="uk-container" style="border-radius: 10px; background-color: #ffffff;margin-top: 20px;">
+
+                            <div class="uk-container" style="padding: 10px 10px;">
+
+                                <span id="plusD" class="toggle2" type="button" uk-toggle="target: .toggle2;animation: uk-animation-fade"> + </span>
+                                <span id="plusD" class="toggle2" type="button" uk-toggle="target: .toggle2;animation: uk-animation-fade" hidden> - </span>
+
+                                <span class="toggle2" id="questionD">How long does it take to build a website?</span>
+                                <span class="toggle2" id="questionD" hidden>How long does it take to build a website?</span>
+
+                                <p class="toggle2" id="answerD" hidden>-> the processing time depends on your request and also the level of difficulty</p>
+
+                            </div>
+
+
+
+                        </div>
+                        <!--End Card Question 2-->
+
+
+                        <!----Card Question 3---->
+                        <div class="uk-container" style="border-radius: 10px; background-color: #ffffff;margin-top: 20px;">
+
+                            <div class="uk-container" style="padding: 10px 10px;">
+
+                                <span id="plusD" class="toggle3" type="button" uk-toggle="target: .toggle3;animation: uk-animation-fade"> + </span>
+                                <span id="plusD" class="toggle3" type="button" uk-toggle="target: .toggle3;animation: uk-animation-fade" hidden> - </span>
+
+                                <span class="toggle3" id="questionD">How to order it?</span>
+                                <span class="toggle3" id="questionD" hidden>How to order it?</span>
+
+                                <p class="toggle3" id="answerD" hidden>-> you can contact our admin in the contact menu</p>
+
+                            </div>
+
+
+
+                        </div>
+                        <!--End Card Question 3-->
+
+                    </div>
+
+                    <!--End FaQ Question-->
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!--End FaQ-->
+
+
+
+        <div id="service"></div>
+        <!----Service---->
+        <div class="uk-container" style="margin: 60px 0;">
+
+            <p id="serviceDesktop">Service</p>
+
+            <div class="row" style="margin: 60px 0;">
+
+                <div class="col-md-4" style="text-align: center;margin-top: 10px;">
+                    <img src="img/service/web-developer.png" alt="web-developer" id="opsiImageD">
+                    <p id="serviceDescD">Web Developer</p>
+                </div>
+
+                <div class="col-md-4" style="text-align: center;margin-top: 10px;">
+                    <img src="img/service/web-design.png" alt="web-design" id="opsiImageD">
+                    <p id="serviceDescD">Web Design</p>
+                </div>
+
+                <div class="col-md-4" style="text-align: center;margin-top: 10px;">
+                    <img src="img/service/web-dev.png" alt="web-development" id="opsiImageD">
+                    <p id="serviceDescD">Web Development</p>
+                </div>
+
+            </div>
+
+            <p style="text-align: center;color:#000;padding: 20px 0;background-color:#8B78FF;border-radius: 5px;font-weight: 600;font-size: 1.5em;color:#ffffff">and also we offer other design making service</p>
+
+        </div>
+        <!--End Service-->
+
+
+        <div id="contact"></div>
+
+        <!----Contact---->
+        <div style="background-color: #8B78FF;">
+
+            <div class="uk-container">
+
+                <p id="contactTitleDesktop">Contact Us</p>
+
+
+                <div class="uk-child-width-expand@s" style="margin: 50px 0;" uk-grid>
+
+                    <div>
+
+                        <div class="col-md-9 uk-container" style="background-color: #ffffff;padding: 10px 10px;border-radius: 10px;">
+                            <p id="contactSectionTitleDesktop">Phone / Whats App</p>
+                            <ul style="margin-bottom: 25px;">
+                                <li id="contactInfoDesktop">Muhamad Nazar : +6285159805488</li>
+                            </ul>
+
+                            <p id="contactSectionTitleDesktop">Email</p>
+                            <ul style="margin-bottom: 25px;">
+                                <li id="contactInfoDesktop">muhamadnazar465@gmail.com</li>
+                                <li id="contactInfoDesktop">muhamadnazar862@gmail.com</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <div class="uk-container" style="background-color: #ffffff;border-radius: 10px;">
+                            <p id="sendM" style="font-size: 1.3em;margin-top: 30px;">Send Message</p>
+
+                            <form id="my-form" action="https://formspree.io/f/xdojgeee" method="POST" style="padding: 10px 20px;">
+                                <!--Alert-->
+                                <div id="my-form-status">
+                                </div>
+                                <!--Alert-->
+                                <div class="uk-margin">
+                                    <label class="uk-form-label" for="email">Your Name</label>
+                                    <div class="uk-form-controls">
+                                        <input class="uk-input" id="email" name="name" type="text" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="uk-margin">
+                                    <label class="uk-form-label" for="email">Your Email</label>
+                                    <div class="uk-form-controls">
+                                        <input class="uk-input" id="email" name="email" type="email" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="uk-margin">
+                                    <textarea class="uk-textarea" id="message" name="message" rows="5" placeholder="Message"></textarea>
+                                </div>
+                                <button id="my-form-button">Submit</button>
+                            </form>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!--End Contact-->
+
+
+        <!----Footer---->
+
+        <div style="background-color: #605DCF;">
+
+            <div class="uk-container">
+
+                <div class="row">
+
+                    <div class="col-md-4" id="colFooter">
+                        <div style="text-align: center;">
+                            <img src="img/logo.png" alt="logo" width="80" height="70">
+                            <span id="footerTitleD" style="margin-top: 50px">Origins Website Build</span>
+                            <img src="img/logo-1.png" alt="logo" style="margin-top: 30px;">
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" id="colFooter">
+                        <p id="footerSubTitleD">Our Service :</p>
+
+                        <p id="serviceFooterD">Web Design</p>
+                        <p id="serviceFooterD">Web Developer</p>
+                        <p id="serviceFooterD">Web Development</p>
+                        <p id="serviceFooterD">Graphic Design</p>
+                    </div>
+
+                    <div class="col-md-4" id="colFooter">
+                        <p id="footerSubTitleD">Contact :</p>
+
+                        <p id="serviceFooterD">Muhamad Nazar</p>
+                        <p id="serviceFooterD">Jl. Sindang Barang, Kec Bogor Barat, Kota Bogor, Jawa Barat</p>
+
+                        <p id="serviceFooterD">Phone : +62895355288314</p>
+                        <p id="serviceFooterD">Email : muhamadnazar862@gmail.com</p>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div style="background-color: rgb(37, 37, 37);margin-bottom: -20px;">
+            <p style="text-align: center;padding-top: 10px;color: #ffffff;font-size: 1em;">
+                Copyright &copy; 2022 Muhamad Nazar <br> All rights reserved
+            </p>
+        </div>
+
+        <!--End Footer-->
+
+
+
+
+
+
+
+
+    </div>
+
+    <!--End Desktop Page-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="android">
 
         <!-----Navbar----->
@@ -47,7 +432,7 @@
 
         <!-----Navbar Link----->
         <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
-            <nav class="uk-navbar-container" uk-navbar style="position: relative; z-index: 980;background-color: #4C0033;">
+            <nav class="uk-navbar-container" uk-navbar style="position: relative; z-index: 980;background-color: #605DCF;">
                 <div class="uk-navbar-center">
 
                     <a href="#" id="navLink">Home</a>
@@ -90,7 +475,7 @@
 
         <div id="about"></div>
 
-        <div style="background-color: #790252;">
+        <div style="background-color: #8B78FF;">
 
             <div class="uk-container" uk-scrollspy="cls: uk-animation-slide-left; repeat: true" style="padding-bottom: 60px;">
 
@@ -126,7 +511,7 @@
         <!-----Faq----->
 
 
-        <div style="background-color: #790252;">
+        <div style="background-color: #8B78FF;">
 
             <div class="uk-container" style="padding-bottom: 60px;" uk-scrollspy="cls: uk-animation-slide-left;">
 
@@ -182,7 +567,7 @@
                         <span class="toggle2" id="question">How long does it take to build a website?</span>
                         <span class="toggle2" id="question" hidden>How long does it take to build a website?</span>
 
-                        <p class="toggle2" id="answer" hidden>-> the processing time depends on your request and also the level of difficulty?</p>
+                        <p class="toggle2" id="answer" hidden>-> the processing time depends on your request and also the level of difficulty</p>
 
                     </div>
 
@@ -246,11 +631,12 @@
                     <p id="serviceDesc">Web Development</p>
                 </div>
 
+
             </div>
 
             <!---Opsi tampilan List--->
 
-            <p style="text-align: center;color:#000;padding: 20px;background-color:#EFA9F5;border-radius: 10px;font-weight: 700;">and also we offer other design making service</p>
+            <p style="text-align: center;color:#000;padding: 20px;background-color:#8B78FF;border-radius: 10px;font-weight: 700;color:#ffffff">and also we offer other design making service</p>
 
 
 
@@ -261,7 +647,7 @@
         <div id="contact"></div>
 
         <!----Contact---->
-        <div style="background-color: #790252;" uk-scrollspy="cls: uk-animation-fade;">
+        <div style="background-color: #8B78FF;" uk-scrollspy="cls: uk-animation-fade;">
 
             <div class="uk-container" style="padding-bottom: 60px;">
 
@@ -307,7 +693,7 @@
                             <div class="uk-margin">
                                 <textarea class="uk-textarea" id="message" name="message" rows="5" placeholder="Message"></textarea>
                             </div>
-                            <button id="my-form-button" onclick="UIkit.notification({message: 'Message sent Successfully',status: 'success'})">Submit</button>
+                            <button id="my-form-button">Submit</button>
                         </form>
 
                     </div>
@@ -325,7 +711,7 @@
 
         <!----Footer---->
 
-        <div style="background-color: #4C0033;">
+        <div style="background-color: #605DCF;">
 
             <div class="uk-container">
 
